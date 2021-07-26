@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Buscador</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/miEstilo.css">
+	<link rel="stylesheet" href="fonts.css">
+	<script src="js/query.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-list2"></span>Menú</a>
+		</div> 
+		<nav>
+			<ul>
+				<li class="submenu">
+					<a href="#"><span class="icon-rocket"></span>Buscadores<span class="caret icon-arrow-down6"></span></a>
+					<ul class="children">
+						<li><a href=modeloBool.html>Modelo Booleano <span class="icon-dot"></span></a></li>
+						<li><a href="modeloVect.html">Modelo Vectorial<span class="icon-dot"></span></a></li>
+						<li><a href="#">Modelo Parametrizado<span class="icon-dot"></span></a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<form id="f1" name="f1" method="post" action="misPHP/modeloBooleano.php">
+		<img src="img/BusquedasCholo.png" height="50px" width="200px"><br>
+		<input type="text" id="cb" name="cb1"><br>
+		<!--<a id="bp" action="misPHP/modeloBooleano.php" action="misPHP/modeloBooleano.php">Buscar</a><br>-->
+	</form>	
+</body>
+</html>
